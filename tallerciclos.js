@@ -125,3 +125,55 @@
 // console.log(`el porcentaje de menores a 1 año es de ${p1}`)
 // console.log(`el porcentaje de mayores a 1 año y menores a 3 años es de ${p2}`)
 // console.log(`el porcentaje de mayores a 3 año es de ${p3}`)
+// 8.
+// let venta1=0,venta2=0,venta3=0
+// let nombre=prompt('digite el nombre del vendedor')
+// while (nombre!=''){
+//     let base=+prompt('digite el sueldo base')
+//     if (base>=0){
+//         venta1=+prompt('digite la venta 1')
+//         venta2=+prompt('digite la venta 2')
+//         venta3=+prompt('digite la venta 3')
+//         if (venta1>=0 && venta2>=0 && venta3>=0){
+//             comision=0.1
+//             total=venta1+venta2+venta3
+//             comisiones=total*comision
+//             sueldototal=base+comisiones
+//             console.log(`el vendedor ${nombre} recibe de comision ${comisiones}`)
+//             console.log(`el sueldo total del vendedor es ${sueldototal}`)
+//         }
+//     }
+//     nombre=+prompt('digite el nombre del vendedor')
+// }    
+
+
+// 9.
+// let salario=950000, comision=170000,realizado=false,total=0
+// let nombre=prompt('digite el nombre del vendedor')
+// let autos=+prompt('digite los autos vendidos')
+// for (i=1;i<=autos;i++){
+//     let precios=+prompt('digite el valor de los autos')
+//     total+=precios
+//     if (precios>0){
+//         extra=0.05
+//     }
+//     sueldo=total*extra
+//     comisionextra=comision*autos
+// } 
+// console.log(`el sueldo total del vendedor ${nombre} es de ${salario+sueldo+comision}`)
+
+// 10.
+// estudiante=prompt('digite el nombre del estudiante')
+// while (estudiante!=''){
+//     nota1=parseFloat(prompt('digite la nota 1'))
+//     nota2=parseFloat(prompt('digite la nota 2'))
+//     nota3=parseFloat(prompt('digite la nota 3'))
+//     nota4=parseFloat(prompt('digite la nota 4'))
+//     nota5=parseFloat(prompt('digite la nota 5'))
+//     if (nota1 || nota2 || nota3 || nota4 || nota5>=0 && ota1 || nota2 || nota3 || nota4 || nota5<=10){
+//         porcentaje1=((nota1+nota2)/2)*0.4
+//         porcentaje2=((nota3+nota4+nota5)/3)*0.6
+//         notafinal=(porcentaje1+porcentaje2)
+//         console.log(`la nota final de ${estudiante} es de: ${notafinal}`)
+//     }estudiante=prompt('digite el nombre del estudiante')
+// }
